@@ -48,7 +48,7 @@ Using dataset 1 with just Radar:
 Using dataset 1 with both Lidar and Radar:
 <img src="results/ekf_ds1_noR.png" alt="dataset 1 - both Lidar and Radar" />
 
-Using dataset 2 with both Lidar and Radar
+Using dataset 2 with both Lidar and Radar:
 <img src="results/ekf_ds1_noR.png" alt="dataset 2 - both Lidar and Radar" />
 
 
