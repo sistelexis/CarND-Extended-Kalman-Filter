@@ -41,12 +41,16 @@ Results:
 
 Using dataset 1 with just Lidar:
 <img src="results/ekf_ds1_noR.png" alt="dataset 1 - just Lidar" />
+
 Using dataset 1 with just Radar:
 <img src="results/ekf_ds1_noR.png" alt="dataset 1 - just Radar" />
+
 Using dataset 1 with both Lidar and Radar:
 <img src="results/ekf_ds1_noR.png" alt="dataset 1 - both Lidar and Radar" />
+
 Using dataset 2 with both Lidar and Radar
 <img src="results/ekf_ds1_noR.png" alt="dataset 2 - both Lidar and Radar" />
+
 
 Troubles found and their solution to complete the project:
 1. Setting up the environment on my windows 10 was my first headache until I managed to compile and test on the simulator the given code.
@@ -56,4 +60,3 @@ What I got was a green line that just went crazy after the first curve that reco
 Following recommendations from the forum, I went on normalizing the angle, but that was not enough. The crazy behavior was still there, and on the right curve instead of predicting inside the measurments, it was predicting on the outside. Strangely, in both tests, the prediction touched the measurements on the left most position of the path.
 Based on some inputs from the forum, I understood that the predictions were like mirrored. That was happening due to the atan function being unable to deerenciate results between 1st and 3rd quadrant, and between 2nd and 4th. So replacing that funciotn with atan2 was enough to solve the issue and get the results that I needed. Please pay attention that atan only takes one parameter (the ratio between sin and cos) when atan2 takes two (sin and cos).
 
-# CarND-Extended-Kalman-Filter
