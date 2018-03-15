@@ -43,13 +43,13 @@ Using dataset 1 with just Lidar:
 <img src="results/ekf_ds1_noR.png" alt="dataset 1 - just Lidar" />
 
 Using dataset 1 with just Radar:
-<img src="results/ekf_ds1_noR.png" alt="dataset 1 - just Radar" />
+<img src="results/ekf_ds1_noL.png" alt="dataset 1 - just Radar" />
 
 Using dataset 1 with both Lidar and Radar:
-<img src="results/ekf_ds1_noR.png" alt="dataset 1 - both Lidar and Radar" />
+<img src="results/ekf_ds1.png" alt="dataset 1 - both Lidar and Radar" />
 
 Using dataset 2 with both Lidar and Radar:
-<img src="results/ekf_ds1_noR.png" alt="dataset 2 - both Lidar and Radar" />
+<img src="results/ekf_ds2.png" alt="dataset 2 - both Lidar and Radar" />
 
 
 Troubles found and their solution to complete the project:
